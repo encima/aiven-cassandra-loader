@@ -1,0 +1,19 @@
+[authentication]
+username = avnadmin
+password = cyIdX3THQPllzlPr
+
+[cql]
+version = 3.4.5
+
+[connection]
+hostname = cassandra-loader-cg-sa-demo.aivencloud.com
+port = 24947
+
+[tracing]
+max_trace_wait = 10.0
+
+[ssl]
+certfile = ca.pem
+validate = false
+factory = cqlshlib.ssl.ssl_transport_factory
+version = SSLv23

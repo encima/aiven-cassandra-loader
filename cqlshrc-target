@@ -1,0 +1,19 @@
+[authentication]
+username = avnadmin
+password = 5zzTOutg1EEDEgAz
+
+[cql]
+version = 3.4.5
+
+[connection]
+hostname = cass-target-cg-sa-demo.aivencloud.com
+port = 24947
+
+[tracing]
+max_trace_wait = 10.0
+
+[ssl]
+certfile = ca-target.pem
+validate = false
+factory = cqlshlib.ssl.ssl_transport_factory
+version = SSLv23
