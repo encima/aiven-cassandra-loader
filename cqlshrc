@@ -1,6 +1,6 @@
 [authentication]
-username = avnadmin
-password = cyIdX3THQPllzlPr
+username = <USER>
+password = <PWD>
 
 [cql]
 version = 3.4.5
